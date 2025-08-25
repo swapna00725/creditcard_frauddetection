@@ -1,0 +1,13 @@
+prefix=D:/projects_practice/creditcard_frauddetection/venv_credit/Library
+exec_prefix=D:/projects_practice/creditcard_frauddetection/venv_credit/Library
+libdir=D:/projects_practice/creditcard_frauddetection/venv_credit/Library/lib
+sharedlibdir=D:/projects_practice/creditcard_frauddetection/venv_credit/Library/lib
+includedir=D:/projects_practice/creditcard_frauddetection/venv_credit/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
